@@ -1,6 +1,10 @@
 {
-  "name": "portfolio",
-  "version": "0.1.0",
+  "name": "g-soft-todos",
+  "description": "technical assignment for Anton Molchanov",
+  "version": "1.0.0",
+  "engines": {
+    "node": "14.x"
+  },
   "main": "server/server.js",
   "private": true,
   "dependencies": {
