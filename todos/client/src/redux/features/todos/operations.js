@@ -53,6 +53,7 @@ const uncompleteTodoItem = (id) => (dispatch, getState) => {
 const addTodo = (newTodo) => (dispatch,getState) => {
     const todos = getState().todos;
     const updatedTodoList = [...todos, newTodo]
+    localStorage.setItem('todos', JSON.stringify(updatedTodoList))
     dispatch(addedTodo(updatedTodoList))
 }
 
