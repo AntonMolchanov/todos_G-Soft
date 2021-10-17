@@ -2,8 +2,8 @@ const express = require('express');
 const path = require('path');
 const app = express();
 require ('dotenv').config()
-console.log(process.env)
-const port = process.env.PORT || 8080
+// console.log(process.env)
+const port = process.env.PORT || 9000
 
 app.use(express.static(path.join(__dirname, '../build')));
 
