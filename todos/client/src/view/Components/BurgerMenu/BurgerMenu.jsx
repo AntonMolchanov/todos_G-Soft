@@ -31,7 +31,7 @@ function BurgerMenu({isOpen, toggle}) {
                                                 {item.title}
                                             </Typography>
                                         </NavLink>
-                                        {item.icon}
+                                            {item.icon}
                                     </Box>
                                 </ListItem>
                             )

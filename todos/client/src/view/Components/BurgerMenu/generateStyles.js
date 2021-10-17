@@ -14,7 +14,8 @@ export function generateStyles() {
         itemContent: {
             display: 'flex',
             alignItems: 'center',
-            color: "#006bb3"
+            color: "#006bb3",
+            width: '100%'
         },
         textItem: {
             paddingRight: '10px'
